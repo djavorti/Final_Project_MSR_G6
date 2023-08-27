@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kr5_gazebo
+    relative_path: urdf/kr5_main.xacro
+    xacro_args: gripper_2f:=true camera:=true
+  SRDF:
+    relative_path: config/kr5_main.srdf
+  CONFIG:
+    author_name: DjalmarVargas
+    author_email: djavorti@espol.edu.ec
+    generated_timestamp: 1692677903
